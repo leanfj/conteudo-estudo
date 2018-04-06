@@ -64,7 +64,7 @@
 
     * Retorna a comparação da entradas com informação de verdadeiro ou falso
     
-    * Os seguintes operadores podem ser utilizados
+    * Os seguintes operadores de comparação podem ser utilizados
 
             > - maior que
             < - menor que
@@ -72,4 +72,37 @@
             <= - menor ou igual
             == - igual a
             != - diferente de
-            
+
+    1.4.1 Logical Operators
+
+    * Operadores possiveis para serem utilizado com valores boleanos
+
+            && - and
+            || - or
+            ! - not
+    * Existe ainda o operador ternario no caso ? que pode ser utilizado com no exemplo abaixo
+
+            true ? 1 : 2
+            false ? 1 : 2
+    * sendo o true sera mostrado como resulado o valor a esquerda do : e false o da direita
+
+    1.5 Empty Values
+
+    * Dois valores possíveis null e undefined
+
+    1.6 Automatic Type Conversion
+
+    * O javascript sempre tentar mostrar um resuldo valido convertendo automaticamento o tipo de algumas entradas
+
+            console.log(8 * null)
+            // → 0
+            console.log("5" - 1)
+            // → 4
+            console.log("5" + 1)
+            // → 51
+            console.log("five" * 2)
+            // → NaN
+            console.log(false == 0)
+            // → true
+
+    * Isso se chama type coercion, como no exemplo onde ele tra o resultado da substração de "5" - 1 onde o 5 é um string que é convertida em um numero que de o resultado
