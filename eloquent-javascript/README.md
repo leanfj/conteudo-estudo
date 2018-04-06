@@ -62,5 +62,14 @@
 
     1.4 Boolean Values
 
+    * Retorna a comparação da entradas com informação de verdadeiro ou falso
+    
+    * Os seguintes operadores podem ser utilizados
 
-
+            > - maior que
+            < - menor que
+            >= - maior ou igual
+            <= - menor ou igual
+            == - igual a
+            != - diferente de
+            
